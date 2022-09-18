@@ -1,5 +1,11 @@
+import { Post } from "./Post";
+
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Post author="Edio Gama" content="a great post" />
+      <Post author="Vanessa Vital" content="another post" />
+
+    </div>
   )
 }
